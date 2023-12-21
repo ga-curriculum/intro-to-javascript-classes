@@ -1,6 +1,6 @@
 # ![Intro to JavaScript Classes - Concepts](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to tktk
+**Learning objective:** By the end of this lesson, students will understand the concept of classes in JavaScript.
 
 ## What are classes?
 

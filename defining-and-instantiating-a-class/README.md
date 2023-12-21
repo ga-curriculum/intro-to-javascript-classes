@@ -1,6 +1,6 @@
 # ![Intro to JavaScript Classes - Defining and Instantiating a Class](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to tktk
+**Learning objective:** By the end of this lesson, students will be able to define and instantiate classes in JavaScript.
 
 ## Defining a class
 
@@ -108,16 +108,3 @@ Add another property, and instantiate the class.
     ```js
     const mySubaru = new Car('Subaru', 'Crosstrek', 'blue')
     ```
-
-
-
-
-
-
-
-
-
-
-
-
-
