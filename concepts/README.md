@@ -40,7 +40,7 @@ const hybridCar = {
 };
 ```
 
-## ❓ What other attributes might a car have?
+## What other attributes might a car have?
 
 What about the **behavior** of a car? What can a car do? What can you do with a car? Let's start with the basics - a car needs to start, right? A `start()` method will do nicely then.
 

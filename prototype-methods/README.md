@@ -2,7 +2,7 @@
 
 **Learning objective:** By the end of this lesson, students will be able utilize prototype methods in JavaScript classes.
 
-## Prototype and static methods in classes
+## Class methods
 
 Two types of methods can be added to a class - [Prototype methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#methods) and [Static methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#static_methods_and_fields).
 

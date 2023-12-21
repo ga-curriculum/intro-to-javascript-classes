@@ -2,7 +2,7 @@
 
 **Learning objective:** By the end of this lesson, students will understand the benefits and implications of inheritance in building complex systems.
 
-## Class Hierarchy
+## Class hierarchy
 
 In Object-oriented Programming, it's not uncommon to have several layers of inheritance. The term **class hierarchy** refers to the layered structure in which classes are arranged.
 
