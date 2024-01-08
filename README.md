@@ -35,14 +35,6 @@ This module offers an introduction to JavaScript classes, covering basic concept
 
 📖 [Reference Materials](./references/README.md)
 
-## Deployed sites
-
-tktk If there is not a deployed site related to this module this section and all of its content should be removed.
-
-🌐 [Live site](#tktk-deployed-app-url)
-
-🐙 [Repository](#tktk-repository-for-deployed-app)
-
 ## Internal resources
 
 ✏️ [Instructor Guide](./internal-resources/instructor-guide.md)

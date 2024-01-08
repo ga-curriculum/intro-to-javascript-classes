@@ -4,7 +4,7 @@
 
 ## What are classes?
 
-In JavaScript, classes are act as blueprints for creating new objects. These new objects are called *instances* of that class. In [object-oriented programming (OOP)](https://en.wikipedia.org/wiki/Object-oriented_programming), we use objects to model our application's purpose.
+In JavaScript, classes act as blueprints for creating new objects. These new objects are called *instances* of that class. In [object-oriented programming (OOP)](https://en.wikipedia.org/wiki/Object-oriented_programming), we use objects to model our application's purpose.
 
 ![A Car class and its instances. The class has make, model, and color properties, which has been used to make 3 cars - an orange Ford Bronco, a red Honda Civic, and a blue BMW i4.](assets/car-class-and-instances.png)
 

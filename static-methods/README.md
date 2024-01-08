@@ -4,9 +4,7 @@
 
 ## Static methods
 
-Static methods implement behavior that does not pertain to a particular instance. These are callable on the class itself - not on its instances. 
-
-Static methods are typically used to implement behavior that does not pertain to a particular instance. For example, we could design the `Car` class so that it tracks every car it creates. We could then write static methods that return how many cars have been created, search for them by their make, and more.
+Static methods are typically used to implement behavior that does not pertain to a particular instance. These are callable on the class itself - not on its instances. For example, we could design the `Car` class so that it tracks every car it creates. We could then write static methods that return how many cars have been created, search for them by their make, and more.
 
 Here’s how to define a basic static method:
 
