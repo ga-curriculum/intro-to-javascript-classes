@@ -1,7 +1,5 @@
 # ![Intro to JavaScript Classes - Setup](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able set up the development environment.
-
 Open your Terminal application and navigate to your `~/code/ga/lectures` directory:
 
 ```bash
