@@ -2,7 +2,7 @@
 
 ## About
 
-In this module, we're going to explore one of the most powerful features of modern JavaScript: the concept of classes. Originally introduced in ECMAScript 2015 (ES6), classes in JavaScript provide a clear and concise way to create objects and understand inheritance, bringing a more traditional approach to object-oriented programming (OOP) into the JavaScript language. This module on is suitable for intermediate level learners. Those who have a basic understanding of JavaScript, including variables, functions, and object-oriented programming concepts.
+In this module, we're going to explore one of the most powerful features of modern JavaScript: the concept of classes. Originally introduced in ECMAScript 2015 (ES6), classes in JavaScript provide a clear and concise way to create objects and understand inheritance, bringing a more traditional approach to object-oriented programming (OOP) into the JavaScript language. This module is suitable for intermediate level learners. Those who have a basic understanding of JavaScript, including variables, functions, and object-oriented programming concepts.
 
 ## Content
 
