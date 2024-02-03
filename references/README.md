@@ -13,5 +13,3 @@
 ## Level Up references
 
 - [Prototype Chain ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
-- [tktk descriptive name of link]()
-- [tktk descriptive name of link]()

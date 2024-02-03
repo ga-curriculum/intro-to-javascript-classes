@@ -4,7 +4,7 @@
 
 ## What is inheritance?
 
-In OOP, inheritance is the mechanism through which a new class automatically receives properties and methods from an existing class, enabling it to reuse and extend the inherited code.
+In object-oriented programming, inheritance is a concept where a new class (known as a child or *derived class*) acquires, or inherits, attributes and behaviors (properties and methods) from an existing class (known as a parent or base class). This allows the child to use and, if necessary, modify or extend the functionalities of the parent class.
 
 The newly derived class can be specialized by:
 
@@ -18,7 +18,7 @@ A subclass automatically inherits all of the superclass's properties and methods
 
 ![A diagram showing the general Insect superclass, and how it relates to the specialized BumbleBee and Grasshopper subclasses.](assets/insect-inheritance.png)
 
-Above, the `Insect` superclass has the `BumbleBee` and `Grasshopper` subclasses derived from it. The diagram follows the guidelines of the [Unified Modeling Language's class diagram](https://en.wikipedia.org/wiki/Class_diagram) specifications, albeit in a simplified form.
+Above, the `Insect` superclass has the `BumbleBee` and `Grasshopper` subclasses derived from it.
 
 We're going to add a subclass called `ElectricCar` that will be derived from the `Car` superclass! Here's a diagram showing the relationship we will create.
 
@@ -76,3 +76,56 @@ myVolvo.start() // "Your electric car is running!"
 myVolvo.batteryCharge = 0
 myVolvo.start() // "Time to recharge!"
 ```
+
+### Overriding prototype methods
+
+In JavaScript, inheritance is a bit different compared to traditional object-oriented programming languages like Java or Python. In JavaScript, inheritance is based on prototypes rather than class-based hierarchies. 
+
+However, with the introduction of the class syntax in modern JavaScript, understanding prototypes isn't as crucial for this lesson.
+
+At the root of JavaScript's inheritance hierarchy is the `Object` class. Almost every object in JavaScript is an instance of `Object` and inherits methods from `Object.prototype`.
+
+For instance, the [toString](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toString) method is a common method that every object inherits:
+
+```js
+const mySubaru = new Car('Subaru', 'Crosstrek', 'blue');
+
+console.log(mySubaru.toString()); // "[object Object]"
+```
+
+This default `toString` method isn't very descriptive, so often, you'll want to override it to make it more useful. 
+
+For example, we can override `Object`'s implementation of `toString` by defining it in our `Car` class:
+
+```js
+class Car {
+  // the constructor will always be called
+  constructor(make, model, color) {
+    this.make = make;
+    this.model = model;
+    this.color = color;
+    this.isRunning = false;
+  }
+  start() {
+    this.isRunning = true;
+    console.log('Running!');
+  }
+  static about() {
+    console.log('I\'m the Car class!');
+  }
+  // override a prototype method
+  toString() {
+    return `This car is a ${this.color} ${this.make} ${this.model}.`;
+  }
+};
+```
+
+Now when we call the `toString()` method on `mySubaru`, we should see the defined output:
+
+```js
+const mySubaru = new Car('Subaru', 'Crosstrek', 'blue');
+
+console.log(mySubaru.toString()); // "This car is a blue Subaru Crosstrek"
+```
+
+So far, you've learned how to define a class that creates objects with properties and add prototype methods. This represents about 80% of what there is to know about classes - congrats!

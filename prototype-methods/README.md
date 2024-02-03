@@ -6,18 +6,16 @@
 
 Two types of methods can be added to a class - [Prototype methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#methods) and [Static methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#static_methods_and_fields).
 
-1. **Prototype methods** are available on an instance of the class (object) - this is why they are called `instance methods` in other OOP languages. `forEach` is an example of a prototype method:
+1. **Prototype methods** are available on an instance of the class (object) - this is why they are called `instance methods` in other OOP languages. `forEach` is an example of a prototype method on an array:
 
 ```javascript
 const nums = [1, 2, 3, 4, 5];
 nums.forEach(num => console.log(num));
 ```
 
-Prototype methods are common, but another less common type of method can be defined.
-
 2. **Static methods** are called on the class itself and are not available on instances. These are typically used to implement behavior that doesn't pertain to a specific instance.
 
-[Array.isArray](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray) is an example of a static method:
+[Array.isArray](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray) is an example of a static method on `Array`:
 
 ```js
 const nums = [1, 2, 3, 4, 5];
@@ -53,74 +51,31 @@ In our `start` method, the `this` keyword refers to the current object instance.
 If we define an object directly, we can reference the object by its name within its methods:
 
 ```javascript
-const hybridCar = {
+const myFirstCar = {
+  make: 'Toyota',
+  model: 'Corolla',
+  color: 'black',
   isRunning: false,
   start: function() {
     // Referencing the object by its name:
-    hybridCar.isRunning = true;
+    myFirstCar.isRunning = true;
     console.log('Running!');
   },
 };
 ```
 
-Here, we use `hybridCar.isRunning` because we're certain of the object's name. However, in class based instances, the object's name isn't predetermined, so we use `this` to dynamically reference whichever instance is calling the method. `this` will always point to the current object.
+Here, we use `myFirstCar.isRunning` because we're certain of the object's name. However, in class based instances, the object's name isn't predetermined, so we use `this` to dynamically reference whichever instance is calling the method. `this` will always point to the current object.
 
-#### 🎓 You Do
+## 🎓 You Do
 
-Add another instance method.
+### Add another instance method.
 
 1. Define a `stop` method in the `Car` class.
 
 2. The `stop` method should set the `isRunning` property to `false` and log `"Stopped!"` to the console.
 
-### Overriding methods
 
-Thanks to another OOP principle called [inheritance](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)), **subclasses** inherit methods from their parent classes.
-
-JavaScript implements inheritance differently from traditional OOP languages like Java or Python, in that JavaScript's implementation is prototype-based.
-
-We won't go into prototypes during this lesson because, thanks to the new class syntax we're currently learning about, knowing about prototypes isn't as important anymore.
-
-In JavaScript, the `Object` class is at the top of the class hierarchy, and thus nearly all objects inherit its methods, such as [toString](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toString):
-
-```js
-console.log(mySubaru.toString()) // something like: [object Object]
-```
-
-However, it's possible to override inherited methods by redefining that method.
-
-For example, we can override/replace `Object`'s implementation of `toString` by defining it in the `Car` class:
-
-```js
-class Car {
-  // the constructor will always be called
-  constructor(make, model, color) {
-    this.make = make;
-    this.model = model;
-    this.color = color;
-    this.isRunning = false;
-  }
-  start() {
-    this.isRunning = true;
-    console.log('Running!');
-  }
-  toString() {
-    return `This car is a ${this.color} ${this.make} ${this.model}.`;
-  }
-};
-```
-
-Now when we call the `toString()` method on `mySubaru`, we should see the defined output:
-
-```js
-console.log(mySubaru.toString()); // "This car is a blue Subaru Crosstrek"
-```
-
-So far, you've learned how to define a class that creates objects with properties and add prototype methods. This represents about 80% of what there is to know about classes - congrats! Sounds like a great time for you to try your hand at this!
-
-## 🎓 You Do
-
-Define another class.
+### Define another class.
 
 1. Pick something like our car example above that would make sense to instantiate. You can pick anything you'd like, but we'll use `Airplane` as an example. Remember that the class name should be uppercase and singular.
 2. Code the class' `constructor` method so that it creates at least two properties.

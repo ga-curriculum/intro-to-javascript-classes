@@ -32,6 +32,13 @@ const myCar = new Car();
 
 > 💡 Notice how instantiating a class resembles calling a function, using the `new` keyword, followed by the class name and parentheses.
 
+If we try to view our new car object in the console, we'll see that it doesn't have any properties yet. 
+
+```js
+console.log(myCar)
+// Car {}
+```
+
 ### The `constructor` method
 
 When a class is instantiated, its [constructor](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor) method is called **automatically**. The `constructor` is a special method defined within the class.
@@ -76,26 +83,42 @@ With this setup, every `Car` instance we create will have `isRunning` set to `fa
 
 ### What is `this`?
 
-**`this` is a keyword in JavaScript** available for use inside of functions/methods (like our `constructor` above). The `this` keyword is a part of a function's **execution context**, which includes the code and everything that aids in its execution.
+The word `this` in JavaScript might seem a bit confusing at first, but it's actually very useful once you understand its function. Think of `this` as a special word that helps you access things inside the object you're currently working with.
 
-The mechanism provided by `this` is necessary for all object-oriented programming languages to:
+Imagine you're inside a car. If you say, "Start *this* car," you mean the car you're in, right? Similarly, when you're inside a JavaScript object (like a class), `this` refers to *that* object.
 
-1. **Provide access to an object's properties and methods** from other methods within that object
-2. **Implement code reuse**
+Key notes about `this`:
 
-`this` has its value automatically set by the JavaScript engine when a function is invoked. This setting of a value is also known as *binding*. However, even though we **can** change the value of `this`, doing so is not common, so we'll focus on learning the rules that JavaScript uses to set `this` automatically. Some of these rules are explained below.
+- `this` is known as a *keyword* in JavaScript, available for use inside of functions or methods (like our `constructor` above). 
 
-### Object instantiation - behind the scenes
+- The `this` keyword is a part of a function's *execution context*, which includes the code and everything that aids in its execution.
 
-When we invoke the class prefaced with the `new` keyword, behind the scenes:
+- `this` changes depending on which object is using the method.
 
-- JavaScript creates a shiny new empty object and assigns it to the `this` keyword when calling the `constructor` method.
-- The `constructor` method is called with the arguments we provided when invoking the class. Remember, the `constructor` method is where we create/initialize properties on the new object assigned to `this`.
-- After executing the `constructor`, the class automatically returns the shiny new object.
+All object-oriented programming languages use a keyword like `this` to:
 
-Although the `constructor` method is notable because it's called automatically, there's nothing special about how it's defined; other methods are defined the same way.
+1. Access an Object's own properties: Inside an object's method , `this` lets you access other properties or methods of the same object. It's like saying, "In *this* house, turn on *this* light."
 
-Don't worry if this is hard to grasp at first; `this` is a difficult concept - we'll return to it later in this lecture when we can provide a more concrete example. For now, what's most important to remember is that **`this` in the `constructor` function refers to the shiny new object being made whenever it is run! In this context, `this` is necessary because we can't know the object's name ahead of time.**
+2. Reuse Code: Sometimes, you want to write a method that you can use in different objects. `this` helps these methods work correctly no matter which object uses them, because `this` will always refer to the object that's currently using the method.
+
+Lastly, the value of `this` is automatically set by the JavaScript engine when a function is invoked. The act of setting that value is known as *binding* and although we can *change* the value of `this`, doing so is not common.
+
+### Object Creation - behind the scenes
+
+When you create an object from a class in JavaScript using the new keyword, several steps happen in the background:
+
+1. JavaScript creates a shiny new empty object and assigns it to the `this` keyword.
+
+2. The class's `constructor` method is called automatically. The arguments you pass when creating a new object are fed into this `constructor`.
+
+3. Inside the `constructor`, properties are assigned to the new object using `this`.
+
+4. The class automatically returns the shiny new object.
+
+> Although the `constructor` method appears unique because it's called automatically, there's nothing special about how it's defined; other methods are defined the same way.
+
+
+Grasping `this` can be challenging at first, but with practice and examples, it becomes clearer. For now, what's most important to remember is **`this` in a class constructor is a reference to the new object being created.** It's a placeholder for the object's name, which isn't known until the class creates the object. 
 
 ### 🎓 You Do 
 

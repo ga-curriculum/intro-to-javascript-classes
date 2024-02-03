@@ -21,9 +21,6 @@ class Car {
     this.isRunning = true;
     console.log('Running!');
   }
-  toString() {
-    return `This car is a ${this.color} ${this.make} ${this.model}.`;
-  }
   static about() {
     console.log('I\'m the Car class!');
   }
