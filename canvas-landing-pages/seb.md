@@ -1,4 +1,4 @@
-# ![Intro to JavaScript Classes](../assets/tktk-hero.png)
+# ![Intro to JavaScript Classes](../assets/hero.png)
 
 ## About
 
@@ -15,7 +15,6 @@ In this module, we're going to explore one of the most powerful features of mode
 | [Static Methods](../static-methods/README.md) |  Utilize static methods in JavaScript classes |
 | [Inheritance](../inheritance/README.md) |   Understand the concept of inheritance in Object-oriented programming. |
 
-
 ## Level Up content
 
 | Lesson | Skills |
@@ -24,8 +23,6 @@ In this module, we're going to explore one of the most powerful features of mode
 | [Extending Built-in Classes](../level-up/extending-built-in-classes.md) |  Extending JavaScript's built-in classes |
 | [Constructor Functions](../level-up/constructor-functions.md) |  Implementing constructor functions |
 
-
 ## References
 
 📖 [Reference Materials](../references/README.md)
-

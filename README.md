@@ -1,4 +1,4 @@
-# ![Intro to JavaScript Classes](./assets/tktk-hero.png)
+# ![Intro to JavaScript Classes](./assets/hero.png)
 
 ## About
 
@@ -26,9 +26,9 @@ In this module, we're going to explore one of the most powerful features of mode
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
-| [Class Hierarchy](./level-up/class-hierarchy.md) | -- | -- | Understanding the concept of class hierarchy in OOP |
-| [Extending Built-in Classes](./level-up/extending-built-in-classes.md) | -- | -- | Extending JavaScript's built-in classes |
-| [Constructor Functions](./level-up/constructor-functions.md) | -- | -- | Implementing constructor functions |
+| [Class Hierarchy](./class-hierarchy/README.md) | -- | -- | Understanding the concept of class hierarchy in OOP |
+| [Extending Built-in Classes](./extending-built-in-classes/README.md) | -- | -- | Extending JavaScript's built-in classes |
+| [Constructor Functions](./constructor-functions/README.md) | -- | -- | Implementing constructor functions |
 | **Total Level Up content**                                          | -- | -- |                     |
 
 ## References
