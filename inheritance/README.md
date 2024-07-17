@@ -1,6 +1,6 @@
 # ![Intro to JavaScript Classes - Inheritance](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will understand the concept of inheritance in Object-oriented programming.
+**Learning objective:** By the end of this lesson, students will understand the concept of inheritance in object-oriented programming.
 
 ## What is inheritance?
 
@@ -79,7 +79,7 @@ myVolvo.start() // "Time to recharge!"
 
 ### Overriding prototype methods
 
-In JavaScript, inheritance is a bit different compared to traditional object-oriented programming languages like Java or Python. In JavaScript, inheritance is based on prototypes rather than class-based hierarchies. 
+In JavaScript, inheritance is a bit different compared to traditional object-oriented programming languages like Java or Python. In JavaScript, inheritance is based on prototypes rather than class-based hierarchies.
 
 However, with the introduction of the class syntax in modern JavaScript, understanding prototypes isn't as crucial for this lesson.
 

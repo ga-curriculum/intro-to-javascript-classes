@@ -30,7 +30,7 @@ Review Questions
 
 (1) What does the acronym OOP stand for?
 
-**Object-Oriented Programming**
+**object-oriented Programming**
 
 (2) What are Classes used for in OOP?
 

@@ -22,7 +22,7 @@ Let's build on this idea using the cars in the example above. Consider the follo
 
 1. `make`
 2. `model`
-3. `color` 
+3. `color`
 
 On their own these attributes do not have much context. However, it makes sense to group (encapsulate) these attributes together to collectively describe characteristics of the same entity: a car.
 
@@ -40,7 +40,7 @@ const myFirstCar = {
 
 What about the **behavior** of a car? What can a car do? What can you do with a car? Let's start with the basics - a car needs to start, right? A `start()` method will do nicely then.
 
-As you add behaviors you may also decide to create new attributes for a car - a `start()` method won't help us much unless we're also tracking if a car is currently running, so we should also create an `isRunning` attribute to support that behavior. 
+As you add behaviors you may also decide to create new attributes for a car - a `start()` method won't help us much unless we're also tracking if a car is currently running, so we should also create an `isRunning` attribute to support that behavior.
 
 Let's add those to our object above:
 
@@ -59,8 +59,8 @@ const myFirstCar = {
 
 ## Why use classes?
 
-In Javascript, objects can be created using object literal notation, so why are classes necessary?
+In JavaScript, objects can be created using object literal notation, so why are classes necessary?
 
-Continuing from our example above - imagine we are building an application for a car dealership. We want to track their inventory of cars and make modifications over time. We can't possibly know the make, model, and color of every car that the car dealership will ever sell when we build the application. 
+Continuing from our example above - imagine we are building an application for a car dealership. We want to track their inventory of cars and make modifications over time. We can't possibly know the make, model, and color of every car that the car dealership will ever sell when we build the application.
 
 Without classes, we would have to add a new object literal in the application's code every time the dealership buys a new car. A more efficient approach can be taken with classes. We can construct a `Car` class that defines the basic structure of a car. In this example, every instance of a car has a `make`, `model`, and a `color`.

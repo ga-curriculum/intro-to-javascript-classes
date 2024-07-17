@@ -97,7 +97,7 @@ Key notes about `this`:
 
 All object-oriented programming languages use a keyword like `this` to:
 
-1. Access an Object's own properties: Inside an object's method , `this` lets you access other properties or methods of the same object. It's like saying, "In *this* house, turn on *this* light."
+1. Access an object's own properties: Inside an object's method , `this` lets you access other properties or methods of the same object. It's like saying, "In *this* house, turn on *this* light."
 
 2. Reuse Code: Sometimes, you want to write a method that you can use in different objects. `this` helps these methods work correctly no matter which object uses them, because `this` will always refer to the object that's currently using the method.
 

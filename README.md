@@ -21,7 +21,7 @@ This module is suitable for intermediate level learners. Those who have a basic 
 | [Defining and Instantiating a Class](./defining-and-instantiating-a-class/README.md) | -- | -- | Define and instantiate classes in JavaScript.                          |
 | [Prototype Methods](./prototype-methods/README.md)                                   | -- | -- | Utilize prototype methods in JavaScript classes.                       |
 | [Static Methods](./static-methods/README.md)                                         | -- | -- | Utilize static methods in JavaScript classes.                          |
-| [Inheritance](./inheritance/README.md)                                               | -- | -- | Understand the concept of inheritance in Object-oriented programming.  |
+| [Inheritance](./inheritance/README.md)                                               | -- | -- | Understand the concept of inheritance in object-oriented programming.  |
 | **Total content**                                                                    | -- | -- |                                                                        |
 
 ## Level Up content
