@@ -1,4 +1,7 @@
-# ![Intro to JavaScript Classes - Level Up - Class Hierarchy](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to JavaScript Classes</span>
+  <span class="subhead">Class Hierarchy</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will understand the benefits and implications of inheritance in building complex systems.
 

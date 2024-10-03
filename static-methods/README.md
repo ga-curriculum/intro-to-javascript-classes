@@ -1,4 +1,7 @@
-# ![Intro to JavaScript Classes - Static Methods](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to JavaScript Classes</span>
+  <span class="subhead">Static Methods</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will understand the role of static methods in JavaScript classes.
 

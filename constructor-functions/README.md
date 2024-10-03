@@ -1,4 +1,7 @@
-# ![Intro to JavaScript Classes - Level Up - Constructor Functions](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to JavaScript Classes</span>
+  <span class="subhead">Constructor Functions</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will understand how to use constructor functions in place of the `class` keyword.
 

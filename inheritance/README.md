@@ -1,4 +1,7 @@
-# ![Intro to JavaScript Classes - Inheritance](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to JavaScript Classes</span>
+  <span class="subhead">Inheritance</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will understand the concept of inheritance in object-oriented programming.
 

@@ -1,4 +1,7 @@
-# ![Intro to JavaScript Classes - Defining and Instantiating a Class](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to JavaScript Classes</span>
+  <span class="subhead">Defining and Instantiating a Class</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to define and instantiate classes in JavaScript.
 
