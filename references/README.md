@@ -12,7 +12,4 @@
 - [Array.isArray](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray) 
 - [super](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super)
 - [Unified Modeling Language's class diagram](https://en.wikipedia.org/wiki/Class_diagram) 
-
-## Level Up references
-
 - [Prototype Chain ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
