@@ -1,4 +1,7 @@
-# ![Intro to JavaScript Classes - Level Up - Extending Built-in Classes](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to JavaScript Classes</span>
+  <span class="subhead">Extending Built-in Classes</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will understand how extend JavaScript's built-in classes
 

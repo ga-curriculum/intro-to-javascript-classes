@@ -1,4 +1,7 @@
-# ![Intro to JavaScript Classes - Prototype Methods](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to JavaScript Classes</span>
+  <span class="subhead">Prototype Methods</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able utilize prototype methods in JavaScript classes.
 

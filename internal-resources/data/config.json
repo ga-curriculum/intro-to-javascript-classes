@@ -1,0 +1,175 @@
+{
+  "org": {
+    "friendlyName": "Modular Curriculum All Courses",
+    "name": "modular-curriculum-all-courses"
+  },
+  "repo": {
+    "friendlyName": "Intro to JavaScript Classes",
+    "name": "intro-to-javascript-classes",
+    "type": "Lesson"
+  },
+  "courses": [
+    {
+      "name": "fallback",
+      "logoUrl": "",
+      "microlessons": [
+        {
+          "friendlyName": "Setup",
+          "dirName": "setup",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Concepts",
+          "dirName": "concepts",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Defining and Instantiating a Class",
+          "dirName": "defining-and-instantiating-a-class",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Prototype Methods",
+          "dirName": "prototype-methods",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Static Methods",
+          "dirName": "static-methods",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Inheritance",
+          "dirName": "inheritance",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Class Hierarchy",
+          "dirName": "class-hierarchy",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Extending Built in Classes",
+          "dirName": "extending-built-in-classes",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Constructor Functions",
+          "dirName": "constructor-functions",
+          "type": "Content",
+          "videoUrl": ""
+        }
+      ],
+      "isHeaderShown": true,
+      "isHeaderModuleNavShown": true,
+      "isHeaderHomeNavShown": true,
+      "isHeaderMicrolessonNavShown": true,
+      "isHeaderMicrolessonVideoLinkShown": true,
+      "isHeaderNavSettingsShown": true,
+      "isFooterCopyrightShown": true,
+      "isFooterLessonNavShown": true,
+      "isStickyNavSettingShown": true,
+      "isStickyNavAllowed": true,
+      "isFixedNavAllowed": true,
+      "isStickyNavDefault": true,
+      "isStickyNavForcedDefault": false,
+      "isFixedNavForcedDefault": false,
+      "isDarkModeSettingShown": true,
+      "isDarkModeAllowed": true,
+      "isLightModeAllowed": true,
+      "isLightModeDefault": true,
+      "isLightModeForcedDefault": false,
+      "isDarkModeForcedDefault": false,
+      "isActivityTimeShown": true
+    },
+    {
+      "name": "seb",
+      "logoUrl": "",
+      "microlessons": [
+        {
+          "friendlyName": "Setup",
+          "dirName": "setup",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Concepts",
+          "dirName": "concepts",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Defining and Instantiating a Class",
+          "dirName": "defining-and-instantiating-a-class",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Prototype Methods",
+          "dirName": "prototype-methods",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Static Methods",
+          "dirName": "static-methods",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Inheritance",
+          "dirName": "inheritance",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Class Hierarchy",
+          "dirName": "class-hierarchy",
+          "type": "Level Up content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Extending Built in Classes",
+          "dirName": "extending-built-in-classes",
+          "type": "Level Up content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Constructor Functions",
+          "dirName": "constructor-functions",
+          "type": "Level Up content",
+          "videoUrl": ""
+        }
+      ],
+      "isHeaderShown": true,
+      "isHeaderModuleNavShown": true,
+      "isHeaderHomeNavShown": true,
+      "isHeaderMicrolessonNavShown": true,
+      "isHeaderMicrolessonVideoLinkShown": true,
+      "isHeaderNavSettingsShown": true,
+      "isFooterCopyrightShown": true,
+      "isFooterLessonNavShown": true,
+      "isStickyNavSettingShown": true,
+      "isStickyNavAllowed": true,
+      "isFixedNavAllowed": true,
+      "isStickyNavDefault": true,
+      "isStickyNavForcedDefault": false,
+      "isFixedNavForcedDefault": false,
+      "isDarkModeSettingShown": true,
+      "isDarkModeAllowed": true,
+      "isLightModeAllowed": true,
+      "isLightModeDefault": true,
+      "isLightModeForcedDefault": false,
+      "isDarkModeForcedDefault": false,
+      "isActivityTimeShown": true
+    }
+  ]
+}

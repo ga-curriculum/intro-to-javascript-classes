@@ -1,4 +1,7 @@
-# ![Intro to JavaScript Classes - Concepts](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to JavaScript Classes</span>
+  <span class="subhead">Concepts</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will understand how JavaScript provides classes to create reusable blueprints for objects.
 

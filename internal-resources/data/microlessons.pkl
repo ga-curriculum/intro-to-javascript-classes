@@ -1,0 +1,67 @@
+import "https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/static/v2/pkl/template.pkl" as Template
+
+// Add microlessons here, in the order they should be delivered
+
+setup = new Template.Microlesson {
+  friendlyName = "Setup"
+  dirName = "setup"
+  type = "Content"
+  videoUrl = ""
+}
+
+concepts = new Template.Microlesson {
+  friendlyName = "Concepts"
+  dirName = "concepts"
+  type = "Content"
+  videoUrl = ""
+}
+
+definingAndInstantiatingAClass = new Template.Microlesson {
+  friendlyName = "Defining and Instantiating a Class"
+  dirName = "defining-and-instantiating-a-class"
+  type = "Content"
+  videoUrl = ""
+}
+
+prototypeMethods = new Template.Microlesson {
+  friendlyName = "Prototype Methods"
+  dirName = "prototype-methods"
+  type = "Content"
+  videoUrl = ""
+}
+
+staticMethods = new Template.Microlesson {
+  friendlyName = "Static Methods"
+  dirName = "static-methods"
+  type = "Content"
+  videoUrl = ""
+}
+
+inheritance = new Template.Microlesson {
+  friendlyName = "Inheritance"
+  dirName = "inheritance"
+  type = "Content"
+  videoUrl = ""
+}
+
+classHierarchy = new Template.Microlesson {
+  friendlyName = "Class Hierarchy"
+  dirName = "class-hierarchy"
+  type = "Content"
+  videoUrl = ""
+}
+
+extendingBuiltInClasses = new Template.Microlesson {
+  friendlyName = "Extending Built in Classes"
+  dirName = "extending-built-in-classes"
+  type = "Content"
+  videoUrl = ""
+}
+
+constructorFunctions = new Template.Microlesson {
+  friendlyName = "Constructor Functions"
+  dirName = "constructor-functions"
+  type = "Content"
+  videoUrl = ""
+}
+

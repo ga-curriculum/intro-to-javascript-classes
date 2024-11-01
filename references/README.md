@@ -1,4 +1,7 @@
-# ![Intro to JavaScript Classes - References](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to JavaScript Classes</span>
+  <span class="subhead">References</span>
+</h1>
 
 ## Lesson references
 
@@ -9,7 +12,4 @@
 - [Array.isArray](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray) 
 - [super](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super)
 - [Unified Modeling Language's class diagram](https://en.wikipedia.org/wiki/Class_diagram) 
-
-## Level Up references
-
 - [Prototype Chain ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)

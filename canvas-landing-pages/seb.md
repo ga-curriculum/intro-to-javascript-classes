@@ -1,4 +1,7 @@
-# ![Intro to JavaScript Classes](../assets/hero.png)
+<h1>
+  <span class="prefix"></span>
+  <span class="headline">Intro to JavaScript Classes</span>
+</h1>
 
 ## About
 
@@ -8,8 +11,8 @@ This module is suitable for intermediate level learners. Those who have a basic 
 
 ## Content
 
-| Lesson | Skills |
-| ------ | ------ |
+| Lesson                                                                                | Skills                                                                |
+| ------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
 | [Setup](../setup/README.md)                                                           | Setting up the development environment.                               |
 | [Concepts](../concepts/README.md)                                                     | Understand how JavaScript classes act as blueprints for objects.      |
 | [Defining and Instantiating a Class](../defining-and-instantiating-a-class/README.md) | Define and instantiate classes in JavaScript.                         |
@@ -19,8 +22,8 @@ This module is suitable for intermediate level learners. Those who have a basic 
 
 ## Level Up content
 
-| Lesson | Skills |
-| ------ | ------ |
+| Lesson                                                                | Skills                                               |
+| --------------------------------------------------------------------- | ---------------------------------------------------- |
 | [Class Hierarchy](../class-hierarchy/README.md)                       | Understanding the concept of class hierarchy in OOP. |
 | [Extending Built-in Classes](../extending-built-in-classes/README.md) | Extending JavaScript's built-in classes.             |
 | [Constructor Functions](../constructor-functions/README.md)           | Implementing constructor functions.                  |
